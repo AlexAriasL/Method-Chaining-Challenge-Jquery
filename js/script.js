@@ -7,5 +7,9 @@ $(document).ready(function() {
       $("button") .mouseleave(function() {
          $(this).removeClass("makeBorder") .addClass("makeRed");
          });
+
+         $("button") .on(function() {
+            $(this).removeClass("makeBorder") .addClass("makeRed");
+            });
    
    }); 
